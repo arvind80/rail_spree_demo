@@ -1,0 +1,8 @@
+body#static_content #main {
+  width: 600px;
+  float: left;
+  margin-right: 70px;
+}
+body#static_content #sidebar {
+  margin-top: 30px;
+}

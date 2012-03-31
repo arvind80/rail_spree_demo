@@ -1,0 +1,66 @@
+
+body#checkout div[role='checkout'] div#tabs {
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  float: left;
+  z-index: 99;
+  background-color: #fff;
+  width:660px;
+}
+
+body#checkout div[role="checkout"] div#tabs ul {
+  margin: 0;
+  font: 45px "Arvo", sans-serif;
+}
+
+body#checkout div[role='checkout'] div#tabs li {
+  display: inline;
+  float: left;
+  background-color: #eceded;
+  border-bottom: 5px solid #b7cbe9;
+  padding-left: 20px;
+  width: 197px !important;;
+  height: 70px;
+}
+body#checkout div[role='checkout'] div#tabs li:last-child {
+  width: 196px !important;
+}
+
+body#checkout div[role='checkout'] div#tabs li.active {
+  background-color: #fff;
+  border: 5px solid #b7cbe9;
+  border-bottom: none;
+}
+
+body#checkout div[role='checkout'] div#tabs li.end {
+  border-right: 3px solid #eceded;
+}
+
+body#checkout div[role='checkout'] div#tabs li span.number {
+  color: #bfbfbf;
+  width: 30px;
+  font-size: 60px;
+  padding: 0 0 0 30px;
+  display: inline-block;
+  font-family: Arial;
+}
+
+body#checkout div[role='checkout'] div#tabs li.active span.number {
+  color: #324781;
+}
+
+
+body#checkout div[role='checkout'] div#tabs li span.title {
+  color: #bfbfbf;
+  font-size: 18px;
+  width: 90px;
+  padding: 0 0 0 10px;
+  display: inline-block;
+}
+
+body#checkout div[role='checkout'] div#tabs li.active span.title {
+  color: #758ed0;
+}
+
+body#checkout div[role="content"] {
+  width: 528px;
+}

@@ -1,0 +1,14 @@
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/**/*
+*.swp
+.DS_Store
+.rvmrc
+db/schema.rb
+config/database.yml
+.idea/*
+tags
+config/s3.yml
+.sass-cache
+public/assets/
