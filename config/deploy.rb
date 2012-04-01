@@ -6,8 +6,7 @@ set :repository,  "git@github.com:arvind80/rail_spree_demo.git"
 set :user, "deployer"
 set :scm, :git
 set :branch, 'master'
-set :real_revision, lambda {source.query_revision(revision){|cmd|
-     capture(cmd)}}
+
 
 ssh_options[:paranoid] = false
 ssh_options[:forward_agent] = true
