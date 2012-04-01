@@ -1,5 +1,5 @@
 
-rker_processes 4
+worker_processes 4
 
 working_directory "/home/deployer/demo/current" 
 
