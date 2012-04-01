@@ -3,7 +3,7 @@ set :git_shallow_clone,  1
 set :keep_releases,      5
 set :application, "demo"
 set :repository,  "git@github.com:arvind80/rail_spree_demo.git"
-
+set :user, "deployer"
 set :scm, :git
 set :branch, 'master'
 set :real_revision, lambda {source.query_revision(revision){|cmd|
