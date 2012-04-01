@@ -1,4 +1,4 @@
-et :use_sudo, false
+set :use_sudo, false
 set :git_shallow_clone,  1
 set :keep_releases,      5
 set :application, "demo"
