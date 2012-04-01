@@ -7,7 +7,8 @@ set :user, "deployer"
 set :scm, :git
 set :branch, 'master'
 
-
+set :deploy_to, "/home/deployer/demo"
+set :runner, "deployer"
 ssh_options[:paranoid] = false
 ssh_options[:forward_agent] = true
 default_run_options[:pty]= true
