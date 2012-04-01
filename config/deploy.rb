@@ -21,7 +21,20 @@ role :web, "108.171.177.115"                          # Your HTTP server, Apache
 role :app,"108.171.177.115"                          # This may be the same as your `Web` server
 role :db,  "108.171.177.115", :primary => true # This is where Rails migrations will run
 
+namespace :deploy do
+ task :start do
+  sudo "/etc/init.d/unicorn start"
+ end
 
+ task :stop do
+  sudo "/etc/init.d/unicorn reload"
+ end
+ 
+ task :restart do
+  sudo "/etc/init.d/unicorn reload"
+ end
+
+end
 # if you're still using the script/reaper helper you will need
 # these http://github.com/rails/irs_process_scripts
 
