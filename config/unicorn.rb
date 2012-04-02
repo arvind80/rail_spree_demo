@@ -1,9 +1,9 @@
 worker_processes  2
+rails_env = ENV['RAILS_ENV'] || 'production'
 
 working_directory "/home/deployer/demo/current" 
 
-listen "/home/deployer/demo/tmp/sockets/unicorn.sock", :backlog => 64
-
+listen "/home/deployer/demo/shared/unicorn.sock", :backlog => 64
 
 
 timeout 30

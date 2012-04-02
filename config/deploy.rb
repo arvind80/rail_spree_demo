@@ -15,6 +15,7 @@ default_run_options[:pty]= true
 
 
 
+default_run_options[:env] = {:GIT_SSL_NO_VERIFY => true}
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
 role :web, "108.171.177.115"                          # Your HTTP server, Apache/etc
