@@ -1,3 +1,7 @@
+
+require 'capistrano/ext/multistage'
+
+require 'bundler/capistrano'
 set :use_sudo, true
 set :git_shallow_clone,  1
 set :keep_releases,      5
