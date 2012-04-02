@@ -1,11 +1,10 @@
-
-worker_processes 4
+worker_processes  2
 
 working_directory "/home/deployer/demo/current" 
 
-listen "/tmp/.sock", :backlog => 64
+listen "/home/deployer/demo/tmp/sockets/unicorn.sock", :backlog => 64
 
-listen 8080, :tcp_nopush => true
+
 
 timeout 30
 
