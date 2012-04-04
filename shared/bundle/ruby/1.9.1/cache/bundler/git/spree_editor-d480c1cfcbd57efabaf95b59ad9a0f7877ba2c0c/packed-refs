@@ -1,0 +1,6 @@
+# pack-refs with: peeled 
+7ec3db65c2c6b28cd5e8047e316fdee1a6ec04f7 refs/heads/namespace
+309d88dfd80d80c478e25f453367889faafaac22 refs/heads/master
+4f4d28b32b4f0ebfae73ae858f6b49a911b1d3d3 refs/heads/fixing-issues-with-0-70
+023da8c132395e1ef9bc3655ca1faa624c5dbaf0 refs/heads/deface
+697cd05c73ce6aabe5556ffc9f229c55f4b83b7d refs/heads/0-70-x

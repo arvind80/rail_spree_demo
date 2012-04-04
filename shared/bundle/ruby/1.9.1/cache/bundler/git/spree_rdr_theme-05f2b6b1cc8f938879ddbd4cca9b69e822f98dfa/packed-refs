@@ -1,0 +1,4 @@
+# pack-refs with: peeled 
+120b707388930305a13e69b86cf4c47a95706ebd refs/heads/namespace
+b0c5f81edd230ad58b20e403077f8cfe6ed78845 refs/heads/master
+cabd6a8cf6ff76fcf8c2912c4169519d947accad refs/heads/0-70-stable

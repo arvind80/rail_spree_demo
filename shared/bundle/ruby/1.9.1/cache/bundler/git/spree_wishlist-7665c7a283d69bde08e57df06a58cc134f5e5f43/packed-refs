@@ -1,0 +1,7 @@
+# pack-refs with: peeled 
+a132ce298193a259b8a4b56f343a7aca784c9974 refs/tags/v1.3
+^155405212bc682c2feff6d7636ea1fbc269a7ae1
+c3ffed26950992cc037976042f7e1edaef970ca1 refs/heads/rails3-1
+9420521b07707c3e1b6f12714290657cad964279 refs/heads/master
+774a0c1068caa5bb38c967f3c0f90fe1ca0a4288 refs/heads/fix_viewing_wishlist_when_not_current_user
+c066fe2887f5b4632abdc8f958eec00e6a43ad8b refs/heads/0-11-stable
