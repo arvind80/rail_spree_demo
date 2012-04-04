@@ -13,11 +13,7 @@ set :runner, "deployer"
 ssh_options[:paranoid] = false
 ssh_options[:forward_agent] = true
 default_run_options[:pty]= true
-
-
-
-default_run_options[:env] = {:GIT_SSL_NO_VERIFY => true}
-# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
+ #Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
 role :web, "108.171.177.115"                          # Your HTTP server, Apache/etc
 role :app,"108.171.177.115"                          # This may be the same as your `Web` server
