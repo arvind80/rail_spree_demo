@@ -1,8 +1,8 @@
-require 'bundler/capistrano'
-set :use_sudo, true
+set :use_sudo, false
 set :git_shallow_clone,  1
 set :keep_releases,      5
 set :application, "demo"
+set :scm_passphrase, "root"
 set :repository,  "git@github.com:arvind80/rail_spree_demo.git"
 set :user, "deployer"
 set :scm, :git
