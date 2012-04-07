@@ -1,16 +1,9 @@
 worker_processes  2
-rails_env = ENV['RAILS_ENV'] || 'production'
-
 working_directory "/home/deployer/demo/current" 
-
-listen "/home/deployer/demo/tmp/sockets/unicorn.sock", :backlog => 64
-
-
+#listen "/tmp/demo.socket", :backlog => 64
+listen "/home/deployer/tmp/sockets/unicorn.sock"
 timeout 30
-
 user 'deployer', 'staff'
-
-
 shared_path = "/home/deployer/demo/shared"
 pid "#{shared_path}/pids/unicorn.pid"
 stderr_path "#{shared_path}/log/unicorn.stderr.log"
