@@ -1,8 +1,0 @@
-# pack-refs with: peeled 
-aedc8fae68061a85b2501c1cf1ba25c57bf98c8d refs/tags/v0.60.2
-53b0b54e6c37ba911b2e9f6d058799c11584df9d refs/tags/spree_0.9.4
-^8fe5c98c354953e6afac9fa0d6fff2c6e321c379
-76e0337302bb456d3249a2b45351b0d12a7d77d6 refs/heads/v0.60.2
-4086c5b573207d074b606c7ed27ad48ee9a3c763 refs/heads/master
-35c1255dd77b607f304b2a338e5b6632f214daf1 refs/heads/1-0-stable
-f3cc3403efbb4a47c75f548eb1b261a9493ab03a refs/heads/0-70-stable
